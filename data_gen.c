@@ -25,7 +25,7 @@ int main (int argc, char **argv){
 	else if(!strcmp(argv[1], "-n")){
 		FILE *fp = fopen("dataset1.txt","w");
 		for (int i = 0; i < testcase; i++) {
-        	fprintf(fp, "%d\n ",rand());
+        	fprintf(fp, "%d\n", rand());
     	}
 	}
 
