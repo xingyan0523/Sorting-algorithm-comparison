@@ -25,4 +25,3 @@ clean:
 	rm mergesort 
 	rm quicksort 
 	rm test
-	rm result
